@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.16">
+  <GVL Name="IO" Id="{a1d13b5d-7f5c-43a7-93f6-effa8ab84281}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	// =============================================================
+	// DEVICE 3: CX7000 INTEGRATED IO
+	// =============================================================
+	// Term 1: CX7028 Onboard Inputs (8) and Outputs (4)
+	bCX_In1 AT %I* : BOOL;
+	bCX_In2 AT %I* : BOOL;
+	bCX_In3 AT %I* : BOOL;
+	bCX_In4 AT %I* : BOOL;
+	bCX_In5 AT %I* : BOOL;
+	bCX_In6 AT %I* : BOOL;
+	bCX_In7 AT %I* : BOOL;
+	bCX_In8 AT %I* : BOOL;
+
+	bCX_Out1_EnableStopBusPwr AT %Q* : BOOL;
+	bCX_Out2 AT %Q* : BOOL;
+	bCX_Out3 AT %Q* : BOOL;
+	bCX_Out4 AT %Q* : BOOL;
+
+	// =============================================================
+	// DEVICE 1: ETHERCAT RAIL (EK1200)
+	// =============================================================
+
+	// Term 2: EL1008 (8 Ch. Digital Input)
+	bTerm2_In1_ModeSwitchMaintNO AT %I* : BOOL;
+	bTerm2_In2_ModeSwitchAutoNO AT %I* : BOOL;
+	bTerm2_In3_BtnFaultRstNO AT %I* : BOOL;
+	bTerm2_In4_BtnFaultRstNC AT %I* : BOOL;
+	bTerm2_In5 AT %I* : BOOL;
+	bTerm2_In6 AT %I* : BOOL;
+	bTerm2_In7 AT %I* : BOOL;
+	bTerm2_In8 AT %I* : BOOL;
+
+	// Term 3: EL1008 (8 Ch. Digital Input)
+	bTerm3_In1 AT %I* : BOOL;
+	bTerm3_In2 AT %I* : BOOL;
+	bTerm3_In3 AT %I* : BOOL;
+	bTerm3_In4 AT %I* : BOOL;
+	bTerm3_In5 AT %I* : BOOL;
+	bTerm3_In6 AT %I* : BOOL;
+	bTerm3_In7 AT %I* : BOOL;
+	bTerm3_In8 AT %I* : BOOL;
+
+	// Term 4: EL1008 (8 Ch. Digital Input)
+	bTerm4_In1 AT %I* : BOOL;
+	bTerm4_In2 AT %I* : BOOL;
+	bTerm4_In3 AT %I* : BOOL;
+	bTerm4_In4 AT %I* : BOOL;
+	bTerm4_In5 AT %I* : BOOL;
+	bTerm4_In6 AT %I* : BOOL;
+	bTerm4_In7 AT %I* : BOOL;
+	bTerm4_In8 AT %I* : BOOL;
+
+	// Term 5: EL2008 (8 Ch. Digital Output)
+	bTerm5_Out1 AT %Q* : BOOL;
+	bTerm5_Out2 AT %Q* : BOOL;
+	bTerm5_Out3 AT %Q* : BOOL;
+	bTerm5_Out4 AT %Q* : BOOL;
+	bTerm5_Out5_BtnFaultResetInd AT %Q* : BOOL;
+	bTerm5_Out6_AutoModeInd AT %Q* : BOOL;
+	bTerm5_Out7_MaintModeInd AT %Q* : BOOL;
+	bTerm5_Out8 AT %Q* : BOOL;
+
+	// Term 6: EL9110 (Power Feed with Diagnostics)
+	bTerm6_PowerOK      AT %I* : BOOL; // True if the 24V bus is healthy
+
+	// Term 7: EL2008 (8 Ch. Digital Output)
+	bTerm7_Out1 AT %Q* : BOOL;
+	bTerm7_Out2 AT %Q* : BOOL;
+	bTerm7_Out3 AT %Q* : BOOL;
+	bTerm7_Out4 AT %Q* : BOOL;
+	bTerm7_Out5 AT %Q* : BOOL;
+	bTerm7_Out6 AT %Q* : BOOL;
+	bTerm7_Out7 AT %Q* : BOOL;
+	bTerm7_Out8 AT %Q* : BOOL;
+
+	// Term 8: EL7031 (Stepper Motor Drive)
+	nTerm8_Status  AT %I* : UINT;
+	nTerm8_Pos     AT %I* : UDINT;
+	nTerm8_Control AT %Q* : UINT;
+	nTerm8_Velo    AT %Q* : INT;
+
+	// Term 9: EL7031 (Stepper Motor Drive)
+	nTerm9_Status  AT %I* : UINT;
+	nTerm9_Pos     AT %I* : UDINT;
+	nTerm9_Control AT %Q* : UINT;
+	nTerm9_Velo    AT %Q* : INT;
+
+	// Term 10: EL9011 (End Cap)
+	// (No logic mapping; it's just a piece of plastic.)
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
