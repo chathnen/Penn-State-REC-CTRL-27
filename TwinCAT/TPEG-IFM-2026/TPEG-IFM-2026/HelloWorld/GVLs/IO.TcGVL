@@ -30,8 +30,8 @@ VAR_GLOBAL
 	bTerm2_In2_ModeSwitchAutoNO AT %I* : BOOL;
 	bTerm2_In3_BtnFaultRstNO AT %I* : BOOL;
 	bTerm2_In4_BtnFaultRstNC AT %I* : BOOL;
-	bTerm2_In5 AT %I* : BOOL;
-	bTerm2_In6 AT %I* : BOOL;
+	bTerm2_In5_BtnStopRstNO AT %I* : BOOL;
+	bTerm2_In6_BtnStopRstNC AT %I* : BOOL;
 	bTerm2_In7 AT %I* : BOOL;
 	bTerm2_In8 AT %I* : BOOL;
 
@@ -56,14 +56,14 @@ VAR_GLOBAL
 	bTerm4_In8 AT %I* : BOOL;
 
 	// Term 5: EL2008 (8 Ch. Digital Output)
-	bTerm5_Out1 AT %Q* : BOOL;
+	bTerm5_Out1_ParkBtnInd AT %Q* : BOOL;
 	bTerm5_Out2 AT %Q* : BOOL;
-	bTerm5_Out3 AT %Q* : BOOL;
-	bTerm5_Out4 AT %Q* : BOOL;
+	bTerm5_Out3_StopResetInd AT %Q* : BOOL;
+	bTerm5_Out4_FaultInd AT %Q* : BOOL;
 	bTerm5_Out5_BtnFaultResetInd AT %Q* : BOOL;
 	bTerm5_Out6_AutoModeInd AT %Q* : BOOL;
 	bTerm5_Out7_MaintModeInd AT %Q* : BOOL;
-	bTerm5_Out8 AT %Q* : BOOL;
+	bTerm5_Out8_ReadyInd AT %Q* : BOOL;
 
 	// Term 6: EL9110 (Power Feed with Diagnostics)
 	bTerm6_PowerOK      AT %I* : BOOL; // True if the 24V bus is healthy
