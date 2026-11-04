@@ -56,8 +56,8 @@ VAR_GLOBAL
 	bTerm4_In8 AT %I* : BOOL;
 
 	// Term 5: EL2008 (8 Ch. Digital Output)
-	bTerm5_Out1_ParkBtnInd AT %Q* : BOOL;
-	bTerm5_Out2 AT %Q* : BOOL;
+	bTerm5_Out1_ParkInd AT %Q* : BOOL;
+	bTerm5_Out2_ConfirmInd AT %Q* : BOOL;
 	bTerm5_Out3_StopResetInd AT %Q* : BOOL;
 	bTerm5_Out4_FaultInd AT %Q* : BOOL;
 	bTerm5_Out5_BtnFaultResetInd AT %Q* : BOOL;
