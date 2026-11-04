@@ -104,7 +104,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{A4F669C5-90AC-4882-8BE7-A33F1FDF1EE8}" Name="HelloWorld" PrjFilePath="HelloWorld\HelloWorld.plcproj" TmcFilePath="HelloWorld\HelloWorld.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="HelloWorld\HelloWorld.tmc" TmcHash="{504917DB-699A-0984-8E7A-5449AAD84410}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="HelloWorld\HelloWorld.tmc" TmcHash="{5BC154BD-0A1B-8A10-1147-BD25AB161CEB}">
 					<Name>HelloWorld Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -166,6 +166,10 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
+							<Name>IO.bTerm4_In5_BtnEStopNO</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
 							<Name>IO.bTerm2_In7</Name>
 							<Type>BOOL</Type>
 						</Var>
@@ -224,19 +228,15 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm4_In5</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm4_In6</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
 							<Name>IO.bTerm4_In7</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
 							<Name>IO.bTerm4_In8</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm4_In6_BtnEStopNC</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -1801,12 +1801,11 @@
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In2" VarB="Channel 2^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In3" VarB="Channel 3^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In4" VarB="Channel 4^Input"/>
-				<Link VarA="PlcTask Inputs^IO.bTerm4_In5" VarB="Channel 5^Input"/>
-				<Link VarA="PlcTask Inputs^IO.bTerm4_In6" VarB="Channel 6^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In7" VarB="Channel 7^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In8" VarB="Channel 8^Input"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
+				<Link VarA="PlcTask Outputs^IO.bTerm5_Out1_ParkInd" VarB="Channel 1^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out2_ConfirmInd" VarB="Channel 2^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out3_StopResetInd" VarB="Channel 3^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out4_FaultInd" VarB="Channel 4^Output"/>

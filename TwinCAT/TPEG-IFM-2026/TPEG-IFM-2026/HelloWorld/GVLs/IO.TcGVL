@@ -50,8 +50,8 @@ VAR_GLOBAL
 	bTerm4_In2 AT %I* : BOOL;
 	bTerm4_In3 AT %I* : BOOL;
 	bTerm4_In4 AT %I* : BOOL;
-	bTerm4_In5 AT %I* : BOOL;
-	bTerm4_In6 AT %I* : BOOL;
+	bTerm4_In5_BtnEStopNO AT %I* : BOOL;
+	bTerm4_In6_BtnEStopNC AT %I* : BOOL;
 	bTerm4_In7 AT %I* : BOOL;
 	bTerm4_In8 AT %I* : BOOL;
 
