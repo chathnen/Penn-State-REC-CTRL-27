@@ -60,7 +60,7 @@ VAR_GLOBAL
 	bTerm5_Out2_ConfirmInd AT %Q* : BOOL;
 	bTerm5_Out3_StopResetInd AT %Q* : BOOL;
 	bTerm5_Out4_FaultInd AT %Q* : BOOL;
-	bTerm5_Out5_BtnFaultResetInd AT %Q* : BOOL;
+	bTerm5_Out5_FaultResetInd AT %Q* : BOOL;
 	bTerm5_Out6_AutoModeInd AT %Q* : BOOL;
 	bTerm5_Out7_MaintModeInd AT %Q* : BOOL;
 	bTerm5_Out8_ReadyInd AT %Q* : BOOL;

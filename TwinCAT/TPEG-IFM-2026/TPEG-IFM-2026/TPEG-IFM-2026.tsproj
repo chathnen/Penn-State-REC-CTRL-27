@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.74">
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.78">
 	<DataTypes>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
 			<BitSize>1</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -11,7 +11,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
 			<BitSize>3</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -20,7 +20,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000004}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..3] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000004}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..3] OF BIT</Name>
 			<BitSize>4</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -38,7 +38,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
 			<BitSize>5</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -47,7 +47,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
 			<BitSize>6</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -56,7 +56,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
 			<BitSize>2</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -74,7 +74,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
 			<BitSize>7</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -94,7 +94,7 @@
 		<ImageData Id="1007">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ffff00ffff00ffff00ffff00ffff00ffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ffff00ffff00ffff00ffff00ffff00ffffc0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff00ffff00ffff00ffff00ffff00ffff00ffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ffff00ffff00ffff00ffff00ffff00ffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ffff00ffff00ffff00ffff00ffff00ffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ffff00ffff00ffff00ffff00ffff00ffffc0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff00ffff00ffff00ffff00ffff00ffff00ffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
 		<ImageData Id="1008">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
 	</ImageDatas>
-	<Project ProjectGUID="{EC8B3B1E-B93B-4267-BD6F-87B31A06AFCC}" TargetNetId="5.172.138.221.1.1" ShowHideConfigurations="#x6">
+	<Project ProjectGUID="{EC8B3B1E-B93B-4267-BD6F-87B31A06AFCC}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
 			<Tasks>
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
@@ -104,7 +104,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{A4F669C5-90AC-4882-8BE7-A33F1FDF1EE8}" Name="HelloWorld" PrjFilePath="HelloWorld\HelloWorld.plcproj" TmcFilePath="HelloWorld\HelloWorld.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="HelloWorld\HelloWorld.tmc" TmcHash="{D29EBBEC-AD75-30C7-3D51-00D2D163B454}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="HelloWorld\HelloWorld.tmc" TmcHash="{97B51ADE-35FD-7982-46DE-9C05DCBBE3BC}">
 					<Name>HelloWorld Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -166,15 +166,28 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm4_In5_BtnEStopNO</Name>
+							<Name>IO.bTerm2_In5_BtnStopRstNO</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm4_In7_BtnConfirmNO</Name>
+							<Name>IO.bTerm2_In6_BtnStopRstNC</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm4_In8_BtnConfirmNC</Name>
+							<Name>IO.bTerm2_In7_BtnParkNO</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm2_In8_BtnParkNC</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm3_In1_SensStationBlk</Name>
+							<Comment><![CDATA[ Term 3: EL1008 (8 Ch. Digital Input)]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm3_In2_SensLiftBlk</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -219,24 +232,19 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm2_In7_BtnParkNO</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm2_In8_BtnParkNC</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm3_In1_SensStationBlk</Name>
-							<Comment><![CDATA[ Term 3: EL1008 (8 Ch. Digital Input)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm3_In2_SensLiftBlk</Name>
+							<Name>IO.bTerm4_In5_BtnEStopNO</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
 							<Name>IO.bTerm4_In6_BtnEStopNC</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm4_In7_BtnConfirmNO</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm4_In8_BtnConfirmNC</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -262,14 +270,6 @@
 							<Name>IO.nTerm9_Pos</Name>
 							<Type>UDINT</Type>
 						</Var>
-						<Var>
-							<Name>IO.bTerm2_In5_BtnStopRstNO</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm2_In6_BtnStopRstNC</Name>
-							<Type>BOOL</Type>
-						</Var>
 					</Vars>
 					<Vars VarGrpType="2" AreaNo="1">
 						<Name>PlcTask Outputs</Name>
@@ -290,16 +290,24 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm5_Out2_ConfirmInd</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
 							<Name>IO.bTerm5_Out1_ParkInd</Name>
 							<Comment><![CDATA[ Term 5: EL2008 (8 Ch. Digital Output)]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm5_Out5_BtnFaultResetInd</Name>
+							<Name>IO.bTerm5_Out2_ConfirmInd</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm5_Out3_StopResetInd</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm5_Out4_FaultInd</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm5_Out5_FaultResetInd</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -308,6 +316,10 @@
 						</Var>
 						<Var>
 							<Name>IO.bTerm5_Out7_MaintModeInd</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm5_Out8_ReadyInd</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -358,18 +370,6 @@
 						<Var>
 							<Name>IO.nTerm9_Velo</Name>
 							<Type>INT</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm5_Out3_StopResetInd</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm5_Out4_FaultInd</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm5_Out8_ReadyInd</Name>
-							<Type>BOOL</Type>
 						</Var>
 					</Vars>
 					<UnrestoredVarLinks ImportTime="2026-05-01T19:11:25">
@@ -441,7 +441,7 @@
 			</Project>
 		</Plc>
 		<Io>
-			<Device Id="1" DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="5.172.138.221.2.1" RemoteName="Device 1 (EtherCAT)" InfoImageId="2">
+			<Device Id="1" DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="10.169.247.170.2.1" RemoteName="Device 1 (EtherCAT)" InfoImageId="2">
 				<Name>Device 1 (EtherCAT)</Name>
 				<AddressInfo>
 					<Ccat>
@@ -1567,7 +1567,7 @@
 				</Image>
 				<DpRam/>
 			</Device>
-			<Device Id="3" DevType="161" AmsNetId="5.172.138.221.4.1" RemoteName="Device 3 (CX7000)_Devices">
+			<Device Id="3" DevType="161" AmsNetId="10.169.247.170.4.1" RemoteName="Device 3 (CX7000)_Devices">
 				<Name>Device 3 (CX7000)</Name>
 				<DevData>3412000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</DevData>
 				<Image Id="4" AddrType="1" ImageType="3" SizeIn="6" SizeOut="20">
@@ -1835,7 +1835,7 @@
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out2_ConfirmInd" VarB="Channel 2^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out3_StopResetInd" VarB="Channel 3^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out4_FaultInd" VarB="Channel 4^Output"/>
-				<Link VarA="PlcTask Outputs^IO.bTerm5_Out5_BtnFaultResetInd" VarB="Channel 5^Output"/>
+				<Link VarA="PlcTask Outputs^IO.bTerm5_Out5_FaultResetInd" VarB="Channel 5^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out6_AutoModeInd" VarB="Channel 6^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out7_MaintModeInd" VarB="Channel 7^Output"/>
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out8_ReadyInd" VarB="Channel 8^Output"/>

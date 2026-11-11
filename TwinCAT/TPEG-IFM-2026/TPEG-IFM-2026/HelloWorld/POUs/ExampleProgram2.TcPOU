@@ -343,7 +343,7 @@ END_VAR
                       <o n="OutputItems" t="OutputItemList">
                         <l2 n="OutputItems" cet="Operand">
                           <o>
-                            <v n="Operand">"IO.bTerm5_Out5_BtnFaultResetInd"</v>
+                            <v n="Operand">"IO.bTerm5_Out5_FaultResetInd"</v>
                             <v n="Type">"BOOL"</v>
                             <v n="Comment">""</v>
                             <v n="SymbolComment">""</v>
