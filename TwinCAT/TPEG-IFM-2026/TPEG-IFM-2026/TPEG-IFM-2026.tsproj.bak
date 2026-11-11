@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.78">
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.74">
 	<DataTypes>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
 			<BitSize>1</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -11,7 +11,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
 			<BitSize>3</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -20,7 +20,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000004}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..3] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000004}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..3] OF BIT</Name>
 			<BitSize>4</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -38,7 +38,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
 			<BitSize>5</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -47,7 +47,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
 			<BitSize>6</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -56,7 +56,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
 			<BitSize>2</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -74,7 +74,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
 			<BitSize>7</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -104,7 +104,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{A4F669C5-90AC-4882-8BE7-A33F1FDF1EE8}" Name="HelloWorld" PrjFilePath="HelloWorld\HelloWorld.plcproj" TmcFilePath="HelloWorld\HelloWorld.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="HelloWorld\HelloWorld.tmc" TmcHash="{5BC154BD-0A1B-8A10-1147-BD25AB161CEB}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="HelloWorld\HelloWorld.tmc" TmcHash="{D29EBBEC-AD75-30C7-3D51-00D2D163B454}">
 					<Name>HelloWorld Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -170,20 +170,11 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm2_In7</Name>
+							<Name>IO.bTerm4_In7_BtnConfirmNO</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm2_In8</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm3_In1</Name>
-							<Comment><![CDATA[ Term 3: EL1008 (8 Ch. Digital Input)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>IO.bTerm3_In2</Name>
+							<Name>IO.bTerm4_In8_BtnConfirmNC</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -228,11 +219,20 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm4_In7</Name>
+							<Name>IO.bTerm2_In7_BtnParkNO</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>IO.bTerm4_In8</Name>
+							<Name>IO.bTerm2_In8_BtnParkNC</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm3_In1_SensStationBlk</Name>
+							<Comment><![CDATA[ Term 3: EL1008 (8 Ch. Digital Input)]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.bTerm3_In2_SensLiftBlk</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -396,6 +396,30 @@
 						<OwnerA Name="InputDst" Prefix="TIPC^HelloWorld^HelloWorld Instance" Type="1">
 							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
 								<Link VarA="IO.bTerm2_In5" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 5^Input" Size="1" RestoreInfo="ANotFound"/>
+							</OwnerB>
+						</OwnerA>
+					</UnrestoredVarLinks>
+					<UnrestoredVarLinks ImportTime="2026-11-10T17:13:46">
+						<OwnerA Name="InputDst" Prefix="TIPC^HelloWorld^HelloWorld Instance" Type="1">
+							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+								<Link VarA="IO.bTerm2_In7" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 7^Input" Size="1" RestoreInfo="ANotFound"/>
+								<Link VarA="IO.bTerm2_In8" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 8^Input" Size="1" RestoreInfo="ANotFound"/>
+							</OwnerB>
+						</OwnerA>
+					</UnrestoredVarLinks>
+					<UnrestoredVarLinks ImportTime="2026-11-10T17:20:12">
+						<OwnerA Name="InputDst" Prefix="TIPC^HelloWorld^HelloWorld Instance" Type="1">
+							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL1008)">
+								<Link VarA="IO.bTerm4_In7" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 7^Input" Size="1" RestoreInfo="ANotFound"/>
+								<Link VarA="IO.bTerm4_In8" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 8^Input" Size="1" RestoreInfo="ANotFound"/>
+							</OwnerB>
+						</OwnerA>
+					</UnrestoredVarLinks>
+					<UnrestoredVarLinks ImportTime="2026-11-10T17:24:26">
+						<OwnerA Name="InputDst" Prefix="TIPC^HelloWorld^HelloWorld Instance" Type="1">
+							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
+								<Link VarA="IO.bTerm3_In1" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 1^Input" Size="1" RestoreInfo="ANotFound"/>
+								<Link VarA="IO.bTerm3_In2" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 2^Input" Size="1" RestoreInfo="ANotFound"/>
 							</OwnerB>
 						</OwnerA>
 					</UnrestoredVarLinks>
@@ -1783,12 +1807,10 @@
 				<Link VarA="PlcTask Inputs^IO.bTerm2_In4_BtnFaultRstNC" VarB="Channel 4^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm2_In5_BtnStopRstNO" VarB="Channel 5^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm2_In6_BtnStopRstNC" VarB="Channel 6^Input"/>
-				<Link VarA="PlcTask Inputs^IO.bTerm2_In7" VarB="Channel 7^Input"/>
-				<Link VarA="PlcTask Inputs^IO.bTerm2_In8" VarB="Channel 8^Input"/>
+				<Link VarA="PlcTask Inputs^IO.bTerm2_In7_BtnParkNO" VarB="Channel 7^Input"/>
+				<Link VarA="PlcTask Inputs^IO.bTerm2_In8_BtnParkNC" VarB="Channel 8^Input"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
-				<Link VarA="PlcTask Inputs^IO.bTerm3_In1" VarB="Channel 1^Input"/>
-				<Link VarA="PlcTask Inputs^IO.bTerm3_In2" VarB="Channel 2^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm3_In3" VarB="Channel 3^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm3_In4" VarB="Channel 4^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm3_In5" VarB="Channel 5^Input"/>
@@ -1801,8 +1823,10 @@
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In2" VarB="Channel 2^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In3" VarB="Channel 3^Input"/>
 				<Link VarA="PlcTask Inputs^IO.bTerm4_In4" VarB="Channel 4^Input"/>
-				<Link VarA="PlcTask Inputs^IO.bTerm4_In7" VarB="Channel 7^Input"/>
-				<Link VarA="PlcTask Inputs^IO.bTerm4_In8" VarB="Channel 8^Input"/>
+				<Link VarA="PlcTask Inputs^IO.bTerm4_In5_BtnEStopNO" VarB="Channel 5^Input"/>
+				<Link VarA="PlcTask Inputs^IO.bTerm4_In6_BtnEStopNC" VarB="Channel 6^Input"/>
+				<Link VarA="PlcTask Inputs^IO.bTerm4_In7_BtnConfirmNO" VarB="Channel 7^Input"/>
+				<Link VarA="PlcTask Inputs^IO.bTerm4_In8_BtnConfirmNC" VarB="Channel 8^Input"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
 				<Link VarA="PlcTask Outputs^IO.bTerm5_Out1_ParkInd" VarB="Channel 1^Output"/>

@@ -32,12 +32,12 @@ VAR_GLOBAL
 	bTerm2_In4_BtnFaultRstNC AT %I* : BOOL;
 	bTerm2_In5_BtnStopRstNO AT %I* : BOOL;
 	bTerm2_In6_BtnStopRstNC AT %I* : BOOL;
-	bTerm2_In7 AT %I* : BOOL;
-	bTerm2_In8 AT %I* : BOOL;
+	bTerm2_In7_BtnParkNO AT %I* : BOOL;
+	bTerm2_In8_BtnParkNC AT %I* : BOOL;
 
 	// Term 3: EL1008 (8 Ch. Digital Input)
-	bTerm3_In1 AT %I* : BOOL;
-	bTerm3_In2 AT %I* : BOOL;
+	bTerm3_In1_SensStationBlk AT %I* : BOOL;
+	bTerm3_In2_SensLiftBlk AT %I* : BOOL;
 	bTerm3_In3 AT %I* : BOOL;
 	bTerm3_In4 AT %I* : BOOL;
 	bTerm3_In5 AT %I* : BOOL;
@@ -52,8 +52,8 @@ VAR_GLOBAL
 	bTerm4_In4 AT %I* : BOOL;
 	bTerm4_In5_BtnEStopNO AT %I* : BOOL;
 	bTerm4_In6_BtnEStopNC AT %I* : BOOL;
-	bTerm4_In7 AT %I* : BOOL;
-	bTerm4_In8 AT %I* : BOOL;
+	bTerm4_In7_BtnConfirmNO AT %I* : BOOL;
+	bTerm4_In8_BtnConfirmNC AT %I* : BOOL;
 
 	// Term 5: EL2008 (8 Ch. Digital Output)
 	bTerm5_Out1_ParkInd AT %Q* : BOOL;
